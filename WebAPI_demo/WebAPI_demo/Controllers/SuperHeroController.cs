@@ -7,7 +7,7 @@ namespace WebAPI_demo.Controllers
     [ApiController]
     public class SuperHeroController : ControllerBase
     {
-        private static List<SuperHero> heroes = new List<SuperHero>
+        /*private static List<SuperHero> heroes = new List<SuperHero>
         {
             new SuperHero
             {
@@ -17,7 +17,7 @@ namespace WebAPI_demo.Controllers
                 LastName = "Stark",
                 Place = "Long Island"
             }
-        };
+        };*/
         private readonly DataContext context;
 
         public SuperHeroController(DataContext context) 
